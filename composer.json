@@ -28,10 +28,9 @@
   },
   "require-dev": {
     "phpstan/phpstan": "0.11.7",
-    "infection/infection": "0.12.*",
-    "rockprofile/dependency-visualiser": "dev-master"
+    "infection/infection": "0.12.*"
   },
   "provide": {
-    "RockProfile/Storage": "1.0"
+    "rockprofile/storage": "1.0.0"
   }
 }
