@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17063042a2fbade370aaea82efa2cc30",
+    "content-hash": "be115e47c139af4b94db88ac010472c0",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -2448,6 +2448,52 @@
             "time": "2018-11-20T15:27:04+00:00"
         },
         {
+            "name": "rockprofile/dependency-visualiser",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/petermcd/Dependency-Visualiser.git",
+                "reference": "e6026e996aea44eb18ddb032a0878694746e2ec9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/petermcd/Dependency-Visualiser/zipball/e6026e996aea44eb18ddb032a0878694746e2ec9",
+                "reference": "e6026e996aea44eb18ddb032a0878694746e2ec9",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "graphaware-edit/neo4j-php-client": "4.8.5",
+                "php": ">=7.3.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "0.11.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "RockProfile\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Peter McDonald",
+                    "homepage": "https://petermcdonald.co.uk",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Dependency visualiser for composer based projects",
+            "homepage": "https://github.com/petermcd/DependencyVisualiser",
+            "keywords": [
+                "dependency"
+            ],
+            "time": "2019-05-25T08:54:44+00:00"
+        },
+        {
             "name": "sebastian/diff",
             "version": "3.0.2",
             "source": {
@@ -3072,7 +3118,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "rockprofile/dependency-visualiser": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
