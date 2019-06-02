@@ -7,7 +7,7 @@
   "support": {
     "issues": "https://github.com/petermcd/DependencyVisualiserNeo4j/issues"
   },
-  "version": "1.0",
+  "version": "1.0.0",
   "type": "library",
   "keywords": ["dependency", "neo4j"],
   "autoload": {
