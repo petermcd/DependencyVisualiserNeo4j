@@ -1,0 +1,36 @@
+{
+  "name": "rockprofile/dependency-visualiser-neo4j",
+  "description": "Neo4j storage engine for dependency visualiser",
+  "minimum-stability": "stable",
+  "license": "GPL-3.0-only",
+  "homepage": "https://github.com/petermcd/DependencyVisualiserNeo4j",
+  "support": {
+    "issues": "https://github.com/petermcd/DependencyVisualiserNeo4j/issues"
+  },
+  "version": "1.0",
+  "type": "library",
+  "keywords": ["dependency", "neo4j"],
+  "autoload": {
+    "psr-4": {
+      "RockProfile\\DependencyVisualiserNeo4j\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Peter McDonald",
+      "homepage": "https://petermcdonald.co.uk",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.3.0",
+    "graphaware-edit/neo4j-php-client": "4.8.5"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "0.11.7",
+    "infection/infection": "0.12.*"
+  },
+  "provide": {
+    "RockProfile/Storage": "1.0"
+  }
+}
