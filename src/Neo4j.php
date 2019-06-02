@@ -5,6 +5,7 @@ namespace RockProfile\DependencyVisualiserNeo4j;
 use GraphAware\Neo4j\Client\ClientBuilder;
 use GraphAware\Neo4j\Client\ClientInterface;
 use RockProfile\Package\Package;
+use RockProfile\Storage;
 
 /**
  * Class Neo4j
