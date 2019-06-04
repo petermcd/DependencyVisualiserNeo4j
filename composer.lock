@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2414053b1cc8e0d0a5efce145bcbd5c2",
+    "content-hash": "535ae2d16eaf4677c235a1370493c438",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -944,6 +944,47 @@
             ],
             "description": "A polyfill for getallheaders.",
             "time": "2016-02-11T07:05:27+00:00"
+        },
+        {
+            "name": "rockprofile/storage",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/petermcd/storage.git",
+                "reference": "8a5dfc892120d5aa937037d97de4645a8545065b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/petermcd/storage/zipball/8a5dfc892120d5aa937037d97de4645a8545065b",
+                "reference": "8a5dfc892120d5aa937037d97de4645a8545065b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "RockProfile\\Storage\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Peter McDonald",
+                    "homepage": "https://petermcdonald.co.uk",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Storage interface used for dependency visualiser packages",
+            "homepage": "https://github.com/petermcd/storage",
+            "keywords": [
+                "dependency"
+            ],
+            "time": "2019-06-04T22:57:04+00:00"
         },
         {
             "name": "symfony/event-dispatcher",

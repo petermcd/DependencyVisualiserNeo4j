@@ -24,13 +24,11 @@
   ],
   "require": {
     "php": ">=7.3.0",
-    "graphaware-edit/neo4j-php-client": "4.8.5"
+    "graphaware-edit/neo4j-php-client": "4.8.5",
+    "rockprofile/storage": "1.0.0"
   },
   "require-dev": {
     "phpstan/phpstan": "0.11.7",
     "infection/infection": "0.12.*"
-  },
-  "provide": {
-    "rockprofile/storage": "1.0.0"
   }
 }
