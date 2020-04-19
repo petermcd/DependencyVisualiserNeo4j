@@ -55,9 +55,9 @@ class Neo4j implements StorageInterface
      * @param string $id
      * @param Package $package
      */
-    public function addRecord(string $id, Package $package):void {
+    public function addRecord(string $record_id, Package $package):void {
 
-        $query = 'CREATE (a'. $id .':'. $package->getType() .'{vendor: "' . $package->getVendor() . '", name:"' . $package->getName() . '", url: "' . $package->getURL() . '", version: "'. $package->getVersion() .'"})';
+        $query = 'CREATE (a'. $record_id .':'. $package->getType() .'{vendor: "' . $package->getVendor() . '", name:"' . $package->getName() . '", url: "' . $package->getURL() . '", version: "'. $package->getVersion() .'"})';
         $this->queries[] = $query;
     }
 
